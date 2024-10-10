@@ -37,7 +37,7 @@ const Home = () => {
         <p className="text-lg mb-8">Explore featured books or add them to your favorites list.</p>
       </div>
 
-      <div className="flex justify-center items-center flex-wrap gap-6 mx-auto w-10/12">
+      <div className="flex justify-center items-center flex-wrap gap-3 mx-auto w-10/10">
         
         <div className="card bg-base-100 image-full w-96 shadow-xl">
           <figure>

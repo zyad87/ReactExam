@@ -7,11 +7,13 @@ import Login from '../pages/Login';
 import SignUp from '../pages/SignUp';
 import Books from '../pages/Books';
 import ReadBooks from '../pages/ReadBooks';
+import ErrorPage from '../pages/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />,
+    errorElement: <ErrorPage />,
   },
   {
     path: '/details/:id',

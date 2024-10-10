@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import CardCategory from './CardCategory';
 
 function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(1);
